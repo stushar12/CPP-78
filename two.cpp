@@ -35,7 +35,7 @@ Node* Insert(Node* root,int data)
 	return root;
 }
 
-void spiral_tarversal(Node* root)
+void zigzag_tarversal(Node* root)
 {
 	if(root==NULL)
 	return ;
@@ -89,5 +89,5 @@ int main()
 	root = Insert(root,17);
 	root = Insert(root,25);
 
-	spiral_tarversal(root);
+	zigzag_tarversal(root);
 }
