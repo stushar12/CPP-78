@@ -42,7 +42,7 @@ void zigzag_tarversal(Node* root)
 
 	queue<Node*>q;
 	stack<int>s;
-	bool result=true;
+	bool result=false;
 	q.push(root);
 	while(q.size())
 	{
